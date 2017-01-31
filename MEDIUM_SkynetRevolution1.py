@@ -8,7 +8,7 @@ import math
 # l: the number of links
 # e: the number of exit gateways
 n, l, e = [int(i) for i in input().split()]
-node_list = {x:set() for x in range(n)}    # dict comprehension to save all the nodes
+node_list = {x: set() for x in range(n)}    # dict comprehension to save all the nodes
 
 for i in range(l):
     # n1: N1 and N2 defines a link between these nodes
@@ -37,4 +37,3 @@ while True:
                 node_list[node].remove(gateway)
                 print(node, gateway)
                 break
-    
