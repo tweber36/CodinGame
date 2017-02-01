@@ -9,6 +9,7 @@ vs = input()
 
 prices = [int(n) for n in vs.split()]
 
+
 def calculate_max_loss(prices, loss=0):
     """
     Fonction récursive qui:
