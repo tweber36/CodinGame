@@ -27,4 +27,5 @@ def calculate_elements(numbers):
 
     return count
 
+
 print(calculate_elements(phone_numbers))
