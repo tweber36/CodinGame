@@ -1,6 +1,3 @@
-import sys
-import math
-
 # Don't let the machines win. You are humanity's last hope...
 
 width = int(input())  # the number of cells on the X axis
@@ -26,4 +23,3 @@ for y in range(height):
             rx, ry = find_right_node(grid, x, y)
             bx, by = find_bottom_node(grid, x, y)
             print("%d %d %d %d %d %d" % (x, y, rx, ry, bx, by))
-            

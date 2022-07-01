@@ -1,6 +1,3 @@
-import sys
-import math
-
 # Auto-generated code below aims at helping you parse
 # the standard input according to the problem statement.
 
@@ -17,4 +14,3 @@ strengths.sort(reverse=True)
 
 diffs = [strengths[i] - strengths[i+1] for i in range(n-1)]
 print(min(diffs))
-    
