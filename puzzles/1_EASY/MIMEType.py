@@ -15,7 +15,7 @@ for i in range(n):
     ext, mt = input().split()
     mime_dict[ext.lower()] = mt
     
-pattern = re.compile(r'\.')
+pattern = re.compile(r'')
 
 for i in range(q):
     fname = input()  # One file name per line.

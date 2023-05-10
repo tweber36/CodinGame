@@ -1,5 +1,3 @@
-import sys
-import math
 import random
 
 # Auto-generated code below aims at helping you parse
